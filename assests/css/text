@@ -1,0 +1,364 @@
+/* ------------------------------------------ */
+/* ------------Small Screen------------- */
+/* ------------------------------------------ */
+
+/* Small Mobile Phones----------------------- */
+
+@media screen and (max-width: 374px) {
+  .hero {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    padding: 30px 10px;
+    z-index: -10;
+  }
+
+  .hero h1 {
+    text-align: center;
+    font-size: 36px;
+    width: 80%;
+    text-align: center;
+  }
+
+  .hero h5 {
+    display: none;
+  }
+
+  .hero p {
+    position: absolute;
+    bottom: 230px;
+  }
+
+  .hero .heroBtn {
+    padding: 15px 40px;
+    font-size: 15px;
+    margin-top: 140px;
+    position: relative;
+  } 
+
+  /* Responsive the Interface Section */
+  
+  .interface {
+    height: 25vh;
+  }
+
+  .interface-img {
+    height: 0;
+    width: 95vw;
+    position: absolute;
+    top: 550px;
+  }
+
+  /* Responsive the Fees Section */
+  .fees {
+    flex-direction: column;
+    padding: 70px 0;
+  }
+
+  .feeLeft {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .feeLeft h1 {
+    font-size: 45px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .feeLeft p {
+    font-size: 19px;
+    line-height: 1.5;
+    padding: 20px 0;
+  }
+
+  /* Designing Our Cards */
+  .feeRight {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .feeRight .card {
+    padding: 20px;
+    width: 90vw;
+    height: fit-content;
+  }
+
+  .left {
+    column-gap: 10px;
+  }
+  .left img {
+    width: 50px;
+  }
+  .left h2 {
+    font-size: 26px;
+  }
+
+  .right {
+    padding: 0 8px;
+    column-gap: 10px;
+  }
+
+  .right img {
+    width: 25px;
+  }
+  .right h4 {
+    font-size: 16px;
+  }
+  .text h1 {
+    font-size: 38px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+  }
+
+  /* Responsive the Features Section */
+  .features {
+    width: 100%;
+    height: auto;
+    padding: 25px 0;
+  }
+  .features h1 {
+    font-size: 46px;
+  }
+
+  .features .features-content {
+    gap: 30px;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .features-content .featCard {
+    width: 90vw;
+    height: fit-content;
+    padding: 25px 15px;
+  }
+  .featCard h4 {
+    font-size: 28px;
+  }
+  .featCard hr {
+    width: 95%;
+    margin-top: 25px;
+    margin-bottom: 0;
+  }
+
+  .featCard .bi {
+    padding: 15px;
+  }
+  .featCard p {
+    font-size: 16px;
+    line-height: 1.6;
+    padding-bottom: 15px;
+  }
+
+  /* Responsive the Footer */
+  .footer {
+    height: 100vh;
+    /* padding: 172px 30px; */
+  }
+
+  .footer h1 {
+    font-size: 34px;
+    padding-bottom: 90px;
+    width: 80%;
+  }
+
+  .footer .footer-logo {
+    width: 20vw;
+    gap: 40px;
+  }
+}
+/* Small Mobile Phones End----------------------- */
+
+/* Medium Mobile Phones----------------------- */
+@media screen and (min-width: 375px) and (max-width: 577px) {
+  /* Responsive the hero section */
+  .hero {
+    height: 70vh;
+    max-height: 55rem;
+    width: 100%;
+    padding: 30px 10px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+    padding-top: 0px;
+   
+  }
+  .hero h5 {
+    display: none;
+  }
+
+  .hero p {
+    font-size: 15px;
+    position: absolute;
+    top: 140px;
+    padding: 0 5px;
+  }
+
+  .hero .heroBtn {
+    padding: 15px 40px;
+    font-size: 15px;
+    /* margin-top: 140px; */
+    position: relative;
+    bottom: 10px;
+  }
+
+  /* Responsive the Interface Section */
+  .interface {
+    height: 30vh;
+  }
+
+  .interface-img {
+    height: 0;
+    width: 95vw;
+    position: absolute;
+    /* top: 490px; */
+  }
+
+  /* Responsive the Fees Section */
+  .fees {
+    flex-direction: column;
+    padding: 70px 0;
+  }
+
+  .feeLeft {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .feeLeft h1 {
+    font-size: 45px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .feeLeft p {
+    font-size: 19px;
+    line-height: 1.5;
+    padding: 20px 0;
+  }
+
+  /* Designing Our Cards */
+  .feeRight {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .feeRight .card {
+    padding: 20px;
+    width: 90vw;
+    height: fit-content;
+  }
+
+  .left {
+    column-gap: 10px;
+  }
+  .left img {
+    width: 50px;
+  }
+  .left h2 {
+    font-size: 26px;
+  }
+
+  .right {
+    padding: 0 8px;
+    column-gap: 10px;
+  }
+
+  .right img {
+    width: 25px;
+  }
+  .right h4 {
+    font-size: 16px;
+  }
+  .text h1 {
+    font-size: 38px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+  }
+
+  /* Responsive the Features Section */
+  .features {
+    width: 100%;
+    height: auto;
+    padding: 25px 0;
+  }
+  .features h1 {
+    font-size: 46px;
+  }
+
+  .features .features-content {
+    gap: 30px;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .features-content .featCard {
+    width: 90vw;
+    height: fit-content;
+    padding: 25px 15px;
+  }
+  .featCard h4 {
+    font-size: 28px;
+  }
+  .featCard hr {
+    width: 95%;
+    margin-top: 25px;
+    margin-bottom: 0;
+  }
+
+  .featCard .bi {
+    padding: 15px;
+  }
+  .featCard p {
+    font-size: 16px;
+    line-height: 1.6;
+    padding-bottom: 15px;
+  }
+
+  /* Responsive the Footer */
+  .footer {
+    height: 100vh;
+    /* padding: 172px 30px; */
+  }
+
+  .footer h1 {
+    font-size: 34px;
+    padding-bottom: 90px;
+    width: 80%;
+  }
+
+  .footer .footer-logo {
+    width: 20vw;
+    gap: 40px;
+  }
+}
+/* Medium Mobile Phones End----------------------- */
+
+/* Large Mobile Phones----------------------- */
+@media (min-width: 425px) and (max-width: 992px) {
+}
+/* Large Mobile Phones End----------------------- */
+
+/* ------------------------------------------ */
+/* ------------Small Screen End------------- */
+/* ------------------------------------------ */
+
+/* ----------------------------------- */
+
+/* ------------------------------------------ */
+/* ------------Medium Screen------------- */
+/* ------------------------------------------ */
+@media (min-width: 577px) and (max-width: 992px) {
+}
+/* ------------------------------------------ */
+/* ------------Medium Screen End------------- */
+/* ------------------------------------------ */

@@ -1,0 +1,397 @@
+@media screen and (max-width: 1440px) {
+  .hero {
+    height: 55vh;
+    padding: 50px 20px;
+  }
+
+  .interface {
+    height: 55vh;
+  }
+
+  .interface-img {
+    position: absolute;
+    top: 430px;
+  }
+
+  /* Fees Section */
+  .fees {
+    height: 100vh;
+    padding: 80px 0;
+  }
+  .feeLeft {
+    padding: 20px;
+  }
+  .feeLeft h1 {
+    width: 40vw;
+    margin-bottom: 20px;
+  }
+  /* Designing Our Cards */
+  .feeRight {
+    row-gap: 30px;
+  }
+  .feeRight .card {
+    padding: 35px;
+    width: 28vw;
+    height: fit-content;
+  }
+
+  /* Features Section */
+  .features {
+    height: 100vh;
+    padding: 10px;
+  }
+
+  .features .features-content {
+    margin-top: 35px;
+  }
+
+  .features-content .featCard {
+    width: 25vw;
+    height: auto;
+    padding: 20px;
+  }
+
+  .featCard .top {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .featCard .top hr {
+    height: 3px;
+  }
+
+  .featCard .bottom .bi {
+    font-size: 60px;
+    padding: 12px;
+  }
+  .featCard .bottom p {
+    font-size: 14px;
+  }
+
+  .footer h1{
+    padding: 140px 0;
+    padding-top: 35px;
+    width: 40vw;
+  }
+
+  .footer .footer-logo{
+    width: 11vw;
+    gap: 55px;
+  }
+}
+
+
+/* For Laptop */
+@media screen and (max-width: 1040px) {
+  .hero {
+    height: 58vh;
+    padding: 30px 20px;
+  }
+
+  .interface {
+    height: 50vh;
+  }
+
+  .interface-img {
+    top: 350px;
+  }
+
+  /* Fees Section */
+  .fees {
+    height: 100vh;
+    padding: 80px 0;
+  }
+  .feeLeft {
+    padding: 20px;
+    width: 50vw;
+  }
+  .feeLeft h1 {
+    width: 40vw;
+    margin-bottom: 20px;
+  }
+  /* Designing Our Cards */
+  .feeRight {
+    row-gap: 30px;
+  }
+  .feeRight .card {
+    padding: 35px;
+    width: 35vw;
+  }
+
+  .feeLeft p{
+    line-height: 1.5;
+}
+  /* Features Section */
+  .features {
+    height: 100vh;
+    padding: 10px;
+  }
+
+  .features .features-content {
+    margin-top: 35px;
+    width: 90%;
+  }
+
+  .features-content .featCard {
+    width: 38vw;
+    padding: 25px 15px;
+  }
+  .featCard .bottom p {
+    font-size: 15.5px;
+  }
+
+  .footer .footer-logo{
+    width: 15vw;
+  }
+}
+
+
+/* For Tablet */
+@media screen and (max-width: 768px) {
+  .hero {
+    height: 86vh;
+    padding:20px 20px;
+  }
+
+  .interface {
+    height: 55vh;
+  }
+
+  .interface-img {
+    top: 410px;
+  }
+
+  /* Fees Section */
+  .fees {
+    height: 100vh;
+    padding: 80px 0;
+  }
+  .feeLeft {
+    padding: 20px;
+    width: 40vw;
+  }
+  .feeLeft h1 {
+    width: 40vw;
+    margin-bottom: 20px;
+  }
+  /* Designing Our Cards */
+  .feeRight {
+    row-gap: 30px;
+  }
+  .feeRight .card {
+    padding: 35px;
+    width: 45vw;
+  }
+
+  .feeLeft p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+  /* Features Section */
+  .features {
+    height: 100%;
+    padding: 10px;
+  }
+
+  .features .features-content {
+    margin-top: 35px;
+    width: 100%;
+  }
+
+  .features-content .featCard {
+    width: 45vw;
+    padding: 25px 10px;
+  }
+  .featCard .bottom p {
+    font-size: 15px;
+  }
+
+  .footer h1{
+    padding: 80px 0;
+    padding-top: 5px;
+    width: 50vw;
+  }
+
+  .footer .footer-logo{
+    width: 22vw;
+  }
+}
+
+
+/* For Large Phone */
+@media screen and (max-width: 425px) {
+  body{
+    width: 115.5vw;
+  }
+  .hero {
+    height: 110vh;
+    padding:20px 0px;
+    width: 100%;
+  }
+  .hero h1 {
+    font-size: 40px;
+    margin: 45px 0;
+  }
+
+  .hero h5 {
+    display: none;
+  }
+  .hero p {
+    width: 115vw;
+    font-size: 19px;
+    position: absolute;
+    top: 130px;
+  }
+
+  .hero .heroBtn {
+    position: relative;
+    padding: 15px 40px;
+    font-size: 18px;
+    margin-top: 180px;
+    /* bottom: 10px; */
+  }
+
+  .interface {
+    height: 53vh;
+  }
+
+  .interface-img {
+    width: 110vw;
+    top: 400px;
+  }
+
+  /* Fees Section */
+  .fees {
+    height: fit-content;
+    padding: 40px 0;
+    flex-direction: column;
+  }
+  .feeLeft {
+    padding: 0px;
+    width: 100vw;
+  }
+  .feeLeft h1 {
+    font-size: 55px;
+    width: 100%;
+    line-height: 1.4;
+  }
+  .feeLeft p{
+    font-size: 21px;
+    line-height: 1.5;
+    padding: 0 20px;
+}
+ /* Designing Our Cards */
+ .feeRight {
+  padding-top: 35px;
+}
+.feeRight .card {
+  width: 100vw;
+}
+  /* Features Section */
+  .features {
+    height: 100%;
+    padding: 0px;
+  }
+  .features h1{
+    font-size: 55px;
+    padding: 20px 0;
+  }
+
+  .features-content .featCard {
+    width: 100vw;
+    padding: 30px 10px;
+  }
+  .featCard .top h4{
+    font-size: 33px;
+  }
+  .featCard .bottom p {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  .featCard .bottom .bi{
+    font-size: 72px;
+    padding: 15px;
+  }
+
+    /* footer */
+    .footer{
+      height: 120vh;
+      padding: 40px;
+    }
+  .footer h1{
+    padding: 80px 0;
+    padding-top: 5px;
+    width: 100vw;
+    font-size: 38px;
+  }
+
+  .footer .footer-logo{
+    width: 22vw;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .hero{
+    height: 120vh;
+  }
+
+  .hero h1{
+    padding: 0 40px;
+    text-align: center;
+  }
+
+  .hero p{
+    top: 180px;
+    padding: 0 8px ;
+    font-size: 18px;
+  }
+
+  .interface {
+    height: 50vh;
+  }
+
+  .interface-img {
+    width: 110vw;
+    top: 430px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .interface{
+    height: 45vh;
+  }
+  .interface-img{
+    top: 410px;
+  }
+  .text h1{
+    font-size: 44px;
+    padding-bottom: 10px;
+  }
+
+
+  /* Features Section */
+  .features {
+    height: 100%;
+    padding: 15px 0;
+  }
+  .features h1{
+    font-size: 55px;
+    padding: 20px 0;
+  }
+
+  .features-content .featCard {
+    width: 100vw;
+    padding: 30px 0px;
+  }
+  .featCard .top h4{
+    font-size: 32px;
+  }
+  .featCard .bottom p {
+    font-size: 18px;
+    padding: 15px;
+    padding-bottom: 20px;
+  }
+  .featCard .bottom .bi{
+    font-size: 72px;
+    padding: 15px;
+  }
+}

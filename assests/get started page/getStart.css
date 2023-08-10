@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+:root {
+  /* Colors */
+  --clr-1: #7467d7;
+  --clr-2: #171d2e;
+  --clr-3: #111726;
+  --clr-4: #fff;
+  --clr-5: #4968cd;
+  --clr-6: #8f94a5;
+  --clr-7: #141c2f;
+  --clr-8: #8467db;
+  
+  /* Background color */
+  --bg-color: #0e121d;
+
+  --bg-gradient: linear-gradient(to left, #8f18f7, #3f37aa);
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background: var(--bg-color);
+}
+
+/* Some important */
+a {
+  text-decoration: none;
+  color: var(--clr-4);
+}
+
+/* For scroll bar--- */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--clr-7);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--clr-6);
+}
+
+/* Designing our Home page */
+.homePage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background: var(--bg-gradient);
+  width: 100%;
+  height: 39vh;
+  padding: 10px 40px;
+}
+
+#navbar .leftNav img {
+  width: 100px;
+  height: 50px;
+}
+
+#navbar .rightNav {
+  margin-top: 13px;
+}
+
+.rightNav a {
+  font-size: 16px;
+}
+
+.rightNav .walletBtn {
+  background: var(--bg-color);
+  padding: 15px 10px;
+  border-radius: 7px;
+  font-size: 14px;
+  margin-left: 15px;
+}
+.walletBtn:hover {
+  background: var(--clr-5);
+}
+
+/* Design the Balance Section */
+.balance {
+  display: flex;
+  position: absolute;
+  top: 55px;
+  left: 20px;
+  margin: 20px;
+  margin-bottom: 0;
+  color: var(--clr-4);
+  column-gap: 30px;
+}
+.balance-content {
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+}
+.balance-content .logo {
+  border: 1px solid var(--clr-6);
+  padding: 10px;
+  border-radius: 12px;
+}
+.balance-content .logo .bi {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.balance-content p {
+  font-size: 12px;
+  color: var(--clr-6);
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.balance-content h2 {
+  letter-spacing: 2px;
+}
+
+/* Design The Cards */
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  position: absolute;
+  top: 135px;
+  padding-bottom: 40px;
+  margin: 0 20px;
+}
+
+.card-section .card {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  background: var(--clr-3);
+  width: 44vw;
+  height: 40vh;
+  border-radius: 14px;
+  border: 2px solid var(--clr-7);
+}
+
+.card .top {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+}
+.left img {
+  width: 50px;
+}
+.left h2 {
+  font-weight: bolder;
+  color: var(--clr-4);
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-color);
+  padding: 0 8px;
+  border-radius: 10px;
+  column-gap: 10px;
+  color: var(--clr-4);
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+.right:hover {
+  border: 2px solid var(--clr-1);
+}
+
+.right img {
+  width: 25px;
+}
+.right h4 {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 0;
+  color: var(--clr-4);
+}
+.middle p {
+  color: var(--clr-6);
+  font-size: 12px;
+  font-weight: bolder;
+}
+.middle h2 {
+  letter-spacing: 2px;
+}
+.left-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3px;
+}
+
+.connectBtn {
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  background: var(--clr-1);
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.1s linear;
+}
+.connectBtn:hover {
+  background: var(--clr-8);
+}
